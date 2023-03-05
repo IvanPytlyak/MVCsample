@@ -1,0 +1,19 @@
+{
+    "name": "user/test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "User\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "my"
+        }
+    ],
+    "require": {
+        "ivanpytlyak/telegram_bot": "0.0.3",
+        "symfony/dotenv": "^6.0",
+        "symfony/http-foundation": "^6.0"
+    }
+}
